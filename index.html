@@ -111,21 +111,21 @@
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-bolt icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h5>Photochemical Reactions</h5>
+                    <a href="#resline1" style="color: black;"><h5>Photochemical Reactions</h5></a>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-search icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h5>Reaction Discovery</h5>
+                    <a href="#resline2" style="color: black;"><h5>Reaction Discovery</h5></a>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-1 text-danger pt-1"><i class="ti-game icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h5>Natural User Interfaces for Quantum Chemistry</h5>
+                    <a href="#resline3" style="color: black;"><h5>Natural User Interfaces for Quantum Chemistry</h5></a>
                         <hr>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
-                                <h4>Photochemical Reactions</h4>
+                                <h4 id="resline1">Photochemical Reactions</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
@@ -242,12 +242,21 @@
                             class="img-fluid" alt="Download free bootstrap 4 admin dashboard, 
                             free boootstrap 4 templates">
                             <br><br>
-                            <h6 class="mt-20"> Modelling photochemical processes is far more challenging than computing 
-                                ground state properties. Due to their very fast timescales (on the order of ~fs-ps), 
-                                photoreactions are highly dynamical, non-equilibrium processes. Using ab initio multiple
-                                 spawning (AIMS) nonadiabatic dynamics method, I characterized the photochemical behavior 
-                                 of molecular photoswitches. 
-                            </h6> 
+                            <h6 class="mt-20"> Modelling photochemical processes is far more challenging than computing ground state properties. 
+							Due to their very fast timescales (on the order of ~fs-ps), light-induced reactions are highly dynamical, non-equilibrium processes. 
+							I use GPU-accelerated multiconfigurational electronic structure theory coupled to <i>ab initio</i> multiple spawning to describe 
+							the natural evolution of both the nuclear and electronic degrees of freedom that govern the photorelaxation process.
+							I have studied the photochemical behavior of several molecular photoswitches, suggesting new elements for the rational design of novel generations of 
+							chromophores with improved features.
+							</h6>
+                            <br>
+                            <h6 class="mt-20"> 
+						    Relevant Publications: 
+   					        <a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02401">[18], </a>	
+							<a href="https://pubs.acs.org/doi/10.1021/jacs.1c06648">[24], </a>
+						    <a href="https://www.nature.com/articles/s41467-022-29662-1">[27], </a>	
+							<a href="https://www.nature.com/articles/s41557-022-00947-8">[28]</a> 
+							</h6>
                        </div>
                     </div>
                 </div>
@@ -255,7 +264,7 @@
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
-                                <h4>Reaction Discovery</h4>
+                                <h4 id="resline2">Reaction Discovery</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
@@ -269,13 +278,20 @@
                             <h6 class="mt-20">
                                 Chemistry is mostly about discovering new molecules, determining their properties and characterizing chemical pathways.
                                  While the past was mainly dominated by heuristics and specialist chemical knowledge, the future will be monopolized 
-                                 by automated workflows for reaction discovery and refinement of the discovered paths. Recently, we proposed a 
+                                 by automated workflows for reaction discovery and refinement of the discovered paths. Recently, I proposed a 
                                  modular workflow for blind reaction discovery and determination of reaction paths.
-                                We use a collective variable derived from spectral graph theory in conjunction with the explore variant of 
+                                My approach is based on a collective variable derived from spectral graph theory and on the explore variant of 
                                 the OPES method to drive reaction discovery runs.
-                                 Our workflow requires minimal user input and extends the power of ab initio molecular dynamics to explore 
+                                 This workflow requires minimal user input and extends the power of <i>ab initio</i> molecular dynamics to explore 
                                  and characterize the reaction space.
+								 With this method I have investigated photomechanical switches, enzymatic processes and reactions relevant in atmospheric chemistry.
                             </h6> 
+						     <br>
+                            <h6 class="mt-20"> 
+                             Relevant Publications: 
+							<a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03993">[26], </a>
+							<a href="https://pubs.acs.org/doi/10.1021/jacs.2c04419">[29]</a>
+                             </h6>
                         </div>
                     </div>
                 </div>
@@ -283,7 +299,7 @@
                     <div class="card">
                        <div class="card-header">
                             <div class="pull-left">
-                                <h4 class="mt-2">Natural User Interfaces for Quantum Chemistry</h4>
+                                <h4 id="resline3" class="mt-2">Natural User Interfaces for Quantum Chemistry</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
@@ -299,10 +315,17 @@
                                 specialized knowledge to prepare input files and parse the output, and access to high-performance computing resources.
                                  This results in a high barrier to entry for non-expert users. The recent ML-driven advances in image and speech recognition 
                                  offer new routes to input molecular structures and initiate calculations. 
-                                 I combined these tools with cloud-based GPU-accelerated quantum chemistry and extended reality 
+                                 I combine these tools with cloud-based GPU-accelerated quantum chemistry and extended reality 
                                  visualization to build a series of interactive quantum chemistry packages. 
                                  These tools can compute quantum mechanical properties in real-time from hand-drawn structures or voice input.                                
+								 Try them now! 
                             </h6>
+                             <br>
+                            <h6 class="mt-20"> 
+                             Relevant Publications: 
+                            <a href="https://www.nature.com/articles/s43588-020-00012-9">[23], </a>
+                            <a href="https://aip.scitation.org/doi/10.1063/5.0090482">[25]</a>
+                             </h6>
                         </div>
                     </div>
                 </div>
@@ -501,6 +524,12 @@
                 <div class="blog-card">
                     <div class="content-holder">
 
+                        <h6><b>29.</b>
+                            <u>Raucci U.</u>, Sanchez D. M., Martínez T. J., Parrinello M. 
+                            <a href="https://pubs.acs.org/doi/10.1021/jacs.2c04419" target="_blank">
+                            <i>Enhanced Sampling Aided Design of Molecular Photoswitches,</i></a>
+                            <b>J. Am. Chem. Soc.</b>, 2022, 144, 19265</h6>
+
                         <h6><b>28.</b>
                             Stricker F., Sanchez D. M., <u>Raucci U.</u>, Dolinski N. D., Zayas M. S., 
                             Meisner J., Hawker C. J., Martínez T. J., Read de Alaniz J., 
@@ -514,7 +543,6 @@
                                  <i>Chiral photochemistry of achiral molecules,</i></a>
                                  <b>Nat. Commun.</b>, 2022, 13, 2091</h6>
 
-                                 
                         <h6><b>26.</b>
                            <u>Raucci U.</u>, Rizzi V., Parrinello M.,
                             <a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03993" target="_blank">
@@ -718,6 +746,36 @@
             </div>
         </div>
     </section>
+    <hr>
+ <section class="section" id="publications">
+         <div class="container">
+            <h2 class="mb-5">Cover</h2>
+             <div class="row">
+                <div class="blog-card">
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+						<a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02401" target="_blank">
+                            <img src="assets/imgs/cover1.jpg" class="img-fluid" style="width:60%" alt="JPCL cover 2020"></a>
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+						<a href="https://pubs.acs.org/doi/10.1021/jacs.1c06648" target="_blank">
+                            <img src="assets/imgs/cover2.jpg" class="img-fluid" style="width:60%" alt="JACS cover 2021"></a>
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+						<a href="https://pubs.acs.org/doi/10.1021/jacs.2c04419" target="_blank">
+                            <img src="assets/imgs/cover3.jpg" class="img-fluid" style="width:60%" alt="JACS cover 2022"></a>
+                        </div>            
+                    </div>
+				</div>
+
+            </div>
+        </div>
+    </section>
+
 <!--
     <div class="section contact" id="contact">
         <div id="map" class="map"></div>
